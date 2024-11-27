@@ -1,6 +1,6 @@
-{ nodejs-22, jq, openssl, coreutils, stdenv, mkShell, lib, fetchurl, writeText, writeShellScript, runCommand, fetchFromGitHub }:
+{ nodejs_22, jq, openssl, coreutils, stdenv, mkShell, lib, fetchurl, writeText, writeShellScript, runCommand, fetchFromGitHub }:
 rec {
-  default_nodejs = nodejs-22;
+  default_nodejs = nodejs_22;
 
   ## helper functions that allow users to define common source override mechanism
 
